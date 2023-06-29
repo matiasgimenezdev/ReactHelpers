@@ -1,3 +1,2 @@
 # React helpers
-
-Repositorio de custom hooks y helpers para reutilizar en proyectos de React
+This is a repository for custom hooks and helpers to be reused in React.
