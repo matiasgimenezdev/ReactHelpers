@@ -1,7 +1,7 @@
-export function formatPrice(price: number): string {
+function formatPrice(price: number, currency: string): string {
 	return price.toLocaleString('es-ar', {
 		style: 'currency',
-		currency: 'ARS',
+		currency: currency,
 		minimumFractionDigits: 0,
 	});
 }
